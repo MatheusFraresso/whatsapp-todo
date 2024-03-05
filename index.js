@@ -20,6 +20,7 @@ const AMANDA_PHONE = "554191856682@c.us"
 
 //Connet to mongo to persist authentication
 
+sendMessage()
 async function sendMessage(phone, message) {
   await mongoose.connect(MONGODB_URI)
 
