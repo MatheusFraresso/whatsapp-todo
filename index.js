@@ -34,7 +34,11 @@ async function sendMessage(phone, message) {
   client.on("qr", (qr) => {
     qrcode.generate(qr, { small: true })
   })
-
+  client.on("remote_session_saved", () => {
+    client
+      .sendMessage(phone || MATHEUS_PHONE, message || "remote session saved")
+      .then(() => console.log("MSG enviada!"))
+  })
   client.on("ready", () => {
     client
       .sendMessage(phone || MATHEUS_PHONE, message || "ready")
