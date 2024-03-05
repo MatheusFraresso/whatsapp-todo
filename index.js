@@ -44,7 +44,7 @@ async function sendMessage(phone, message) {
   client.initialize()
 }
 
-cron.schedule("30 9,12,18,20 * * * *", () => {
+cron.schedule("10 9,12,18,21 * * * *", () => {
   const message = `Teste de API todo`
   sendMessage(MATHEUS_PHONE, message)
   sendMessage(AMANDA_PHONE, message)
