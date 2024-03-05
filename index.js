@@ -20,7 +20,6 @@ const AMANDA_PHONE = "554191856682@c.us"
 
 //Connet to mongo to persist authentication
 
-sendMessage()
 async function sendMessage(phone, message) {
   await mongoose.connect(MONGODB_URI)
 
@@ -44,6 +43,11 @@ async function sendMessage(phone, message) {
 
   client.initialize()
 }
+
+// test cron schedule
+cron.schedule("* * * * * *", () => {
+  console.log("test")
+})
 
 cron.schedule("10 9,12,18,21 * * * *", () => {
   const message = `Teste de API todo`

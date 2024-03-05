@@ -1,3 +1,11 @@
-2024/03/04-18:45:49.537 6724 Reusing MANIFEST /home/matheus-fraresso/personal/coding/whatsapp-todo-list/.wwebjs_auth/RemoteAuth/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/03/04-18:45:49.537 6724 Recovering log #146
-2024/03/04-18:45:49.563 6724 Reusing old log /home/matheus-fraresso/personal/coding/whatsapp-todo-list/.wwebjs_auth/RemoteAuth/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000146.log 
+2024/03/04-18:37:16.428 5d48 Reusing MANIFEST /home/matheus-fraresso/personal/coding/whatsapp-todo-list/.wwebjs_auth/RemoteAuth/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/04-18:37:16.428 5d48 Recovering log #146
+2024/03/04-18:37:16.429 5d48 Reusing old log /home/matheus-fraresso/personal/coding/whatsapp-todo-list/.wwebjs_auth/RemoteAuth/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000146.log 
+2024/03/04-18:37:16.429 5d48 Delete type=2 #145
+2024/03/04-18:37:17.664 5d48 Compacting 1@1 + 1@2 files
+2024/03/04-18:37:17.708 5d48 Generated table #150@1: 27242 keys, 2195990 bytes
+2024/03/04-18:37:17.733 5d48 Generated table #151@1: 35535 keys, 1190064 bytes
+2024/03/04-18:37:17.733 5d48 Compacted 1@1 + 1@2 files => 3386054 bytes
+2024/03/04-18:37:17.736 5d48 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/03/04-18:37:17.736 5d48 Delete type=2 #148
+2024/03/04-18:37:17.736 5d48 Delete type=2 #136
